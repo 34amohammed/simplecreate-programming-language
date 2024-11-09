@@ -1,0 +1,34 @@
+{
+  "name": "simplecreate",
+  "displayName": "SimpleCreate Language",
+  "description": "A VS Code extension for this SimpleCreate programming language.",
+  "version": "0.0.1",
+  "publisher": "ArhamKazimMohammed",
+  "engines": {
+      "vscode": "^1.60.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/yourUsername/simplecreate-vscode-extension.git"
+  },
+  "categories": [
+      "Programming Languages"
+  ],
+  "contributes": {
+      "languages": [
+          {
+              "id": "simplecreate",
+              "aliases": ["SimpleCreate", "simplecreate"],
+              "extensions": [".sc", ".simplecreate"],
+              "configuration": "./language-configuration.json"
+          }
+      ],
+      "grammars": [
+          {
+              "language": "simplecreate",
+              "scopeName": "source.simplecreate",
+              "path": "./syntaxes/sc.tmLanguage.json"
+          }
+      ]
+  }
+}

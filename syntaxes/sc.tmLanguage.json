@@ -1,0 +1,22 @@
+{
+    "scopeName": "source.sc",
+    "patterns": [
+        {
+            "name": "keyword.control.simplecreate",
+            "match": "\\b(Create link|Insert image|Play audio|Pause audio|Stop audio|Set volume to|Display|Set|If|Then|Otherwise|Repeat|Define|Use)\\b"
+        },
+        {
+            "name": "variable.language.simplecreate",
+            "match": "\\b(true|false)\\b"
+        },
+        {
+            "name": "string.quoted.double.simplecreate",
+            "begin": "\"",
+            "end": "\""
+        },
+        {
+            "name": "comment.line.simplecreate",
+            "match": "Note:.*$"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Display Text": {
+        "prefix": "display",
+        "body": ["Display \"$1\""],
+        "description": "Displays text output."
+    },
+    "Create Link": {
+        "prefix": "link",
+        "body": ["Create link \"$1\" to \"$2\""],
+        "description": "Creates a clickable link."
+    },
+    "Insert Image": {
+        "prefix": "image",
+        "body": ["Insert image \"$1\" from \"$2\""],
+        "description": "Inserts an image with alt text."
+    },
+    "Play Audio": {
+        "prefix": "play",
+        "body": ["Play audio from \"$1\""],
+        "description": "Plays audio from a specified URL."
+    },
+    "Pause Audio": {
+        "prefix": "pause",
+        "body": ["Pause audio."],
+        "description": "Pauses the current audio."
+    },
+    "Stop Audio": {
+        "prefix": "stop",
+        "body": ["Stop audio."],
+        "description": "Stops the current audio."
+    },
+    "Set Volume": {
+        "prefix": "volume",
+        "body": ["Set volume to $1"],
+        "description": "Sets the audio volume to a specified level."
+    },
+    "Create Play Button": {
+        "prefix": "playbutton",
+        "body": ["Create play button for audio from \"$1\""],
+        "description": "Creates a play button for audio playback."
+    },
+    "Create Pause Button": {
+        "prefix": "pausebutton",
+        "body": ["Create pause button."],
+        "description": "Creates a pause button for audio playback."
+    },
+    "Create Stop Button": {
+        "prefix": "stopbutton",
+        "body": ["Create stop button."],
+        "description": "Creates a stop button for audio playback."
+    },
+    "Create Volume Slider": {
+        "prefix": "volumeslider",
+        "body": ["Create volume slider with default $1"],
+        "description": "Creates an interactive volume slider."
+    },
+    "If Statement": {
+        "prefix": "if",
+        "body": [
+            "If $1 is $2, then",
+            "    $3",
+            "Otherwise",
+            "    $4"
+        ],
+        "description": "Conditional if-else statement."
+    },
+    "Repeat Block": {
+        "prefix": "repeat",
+        "body": [
+            "Repeat $1 times:",
+            "    $2"
+        ],
+        "description": "Repeats a block of code a specified number of times."
+    }
+}
